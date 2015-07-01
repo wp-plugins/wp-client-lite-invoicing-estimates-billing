@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WP-Client: Lite Invoicing Estimates Billing
+Plugin Name: WP-Client LITE : Invoicing, Estimates, Billing Extension
 Plugin URI: http://www.WP-Client.com
 Description: Easily create estimates and invoices that your clients can pay online using the provided payment gateways. You can display invoices on your website, send in PDF format via email, or print out and send in traditional snail mail.
 Author: WP-Client.com
