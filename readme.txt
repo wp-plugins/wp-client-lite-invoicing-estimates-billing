@@ -12,10 +12,11 @@ WP-Client LITE - Invoicing, Estimates & Billing :: Integrate your Billing needs 
 
 == Description ==
 
-<h3 style="margin-bottom:20px;"><a href="https://wp-client.com">WP-Client LITE :: Invoicing, Estimates & Billing</a></h3>
+<h3 style="margin-bottom:20px;"><a href="https://wp-client.com">WP-Client LITE :: Invoicing, Estimates & Billing Extension</a></h3>
 <p>Visit Website &gt;&gt; <a href="https://wp-client.com">WP-Client.com</a> is the home of WP-Client Pro, a premium, fully featured Web Portal plugin for WordPress.</p>
 <strong><a href="https://wp-client.com/testimonials/">REVIEWS: Read the Reviews from Happy Customers :: NO B.S.</a></strong>
-<h3 style="margin-bottom:20px;">IMPORTANT :: What is WP-Client Lite?</h3>
+<h3 style="margin-bottom:20px;">IMPORTANT :: This extension will work only when WP-Client LITE CORE Plugin is also installed.</h3>
+<p>CLICK HERE to find the WP-Client LITE CORE Plugin<a href="https://wordpress.org/plugins/web-portal-lite-client-portal-secure-file-sharing-private-messaging/">WP-Client.com</a> is the home of WP-Client Pro, a premium, fully featured Web Portal plugin for WordPress.</p>
 <p>WP-Client Lite is designed to give just an introduction to the very basic components of a Client Portal, but there are many features in the PRO version that are not included in the Lite version.</p>
 <p>WP-Client Lite functions as a very basic Client Portal, but at the same time, provides a glimpse into what is included and possible in the WP-Client PRO version.</p>
 <p>WP-Client Pro is in constant development and is fully supported. New features are added weekly, and your suggestions are welcome.</p>
