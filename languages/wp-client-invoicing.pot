@@ -1,0 +1,2156 @@
+# LANGUAGE (LOCALE) translation for WordPress.
+# Copyright (C) YEAR WordPress contributors.
+# This file is distributed under the same license as the WordPress package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Client-Invoicing\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-30 17:28+0200\n"
+"PO-Revision-Date: 2015-01-30 17:28+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: c:\\wp-client-invoicing\n"
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:67
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:85
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:103
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:121
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:139
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:157
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:175
+msgid "MAIN"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:68
+#, php-format
+msgid "You will see a list of all existing invoices in this tab. You can view/edit each invoice, download as a PDF, mark them as \"Void\", and delete them permanently. You can also filter the list by invoice status such as \"Open\" or \"Pending\", and by assigned %s"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:69
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:87
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:105
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:123
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:141
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:159
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:177
+msgid "Extensions Basics"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:70
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:88
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:106
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:124
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:142
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:160
+msgid "Estimates/Invoices Overview"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:71
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:89
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:107
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:125
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:143
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:161
+msgid "Estimates/Invoices Quick Start Guide"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:86
+#, php-format
+msgid "When you create a new Invoice, you are given multiple options. You can assign to specific %s or %s. Additionally, you can choose to drag-and-drop your previously created Items into the Invoice, or add new Items. You can also set a due date, and type a unique message for the %s."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:104
+#, php-format
+msgid "You will see a list of all existing estimates in this tab. You can view/edit each estimate, download as a PDF, and delete them permanently. Additionally, choosing the \"Convert to Invoice\" option will automatically switch the estimate over to a invoice, keeping it's %1$s assignment. You can also filter the list by assigned %1$s."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:122
+msgid "Estimates can be thought of in a very similar manner as Invoices, and almost as \"pre-Invoices\". An estimate consists of one or more items with their associated title, description and price point. You can set a date for the estimate is good until, add tax to the estimate, add a discount to the estimate, set your terms and conditions and add a special note to the customer as needed."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:140
+msgid "The building blocks for Estimates and Invoices are what is known as Items. Items can be thought of as a line item title and description that quantifies a billable service or particular product or sku. The items created on this page are reusable, so for example you can create an item for \"One Billable Hour of Design Work\", and add it to as many Estimates/Invoices as you like, including adding multiples of each item to an Estimate or Invoice."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:158
+msgid "You can create and adjust your desired taxes from this page. You can setup multiple tax levels if desired, and then choose the appropriate tax on an individual Estimate/Invoice basis. The default tax rate is calculated in percent."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:176
+#, php-format
+msgid "Adjust various Estimates/Invoices settings from this tab, including how the Estimate/Invoice numbers are formatted, what payment gateways your %1$s can use, what currency symbol to use, and whether or not you and your %1$s will receive email notifications related to Estimates and Invoices."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:193
+#: c:\wp-client-invoicing/includes/admin/estimate_edit.php:114
+msgid "Add Invoice"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:199
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:573
+msgid "Recurring Profiles"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:205
+msgid "Add Recurring Profile"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:211
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:579
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:40
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:363
+msgid "Accumulating Profiles"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:217
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoice_edit.php:106
+msgid "Add Accumulating Profile"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:223
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:584
+#: c:\wp-client-invoicing/includes/admin/estimates.php:25
+#: c:\wp-client-invoicing/includes/admin/estimates.php:348
+msgid "Estimates"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:229
+#: c:\wp-client-invoicing/includes/admin/estimate_edit.php:124
+msgid "Add Estimate"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:235
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:589
+msgid "Items"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:241
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:594
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2233
+msgid "Taxes"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:247
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:109
+msgid "Custom Fields"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:262
+msgid "Once Five Min"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:361
+msgid "INV: Invoice Notification"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:362
+msgid "Invoicing: Invoice Notification"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:363
+#, php-format
+msgid "  >> This template for notifying the %s that they have a new Invoice"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:369
+msgid "INV: Estimate Notification"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:370
+msgid "Invoicing: Estimate Notification"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:371
+#, php-format
+msgid "  >> This template for notifying the %s that they have a new Estimate"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:377
+msgid "INV: Payment Thank-You"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:378
+msgid "Invoicing: Payment Thank-You"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:379
+#, php-format
+msgid "  >> This template for sending the %s a thank you for payment"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:385
+msgid "INV: Notify Admin of Payment"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:386
+msgid "Invoicing: Notify Admin of Payment"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:387
+msgid "  >> This template for notifying the admin of successful online payment"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:393
+msgid "INV: Payment Reminders"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:394
+msgid "Invoicing: Payment Reminders"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:395
+#, php-format
+msgid "  >> This template for notifying the %s of overdue invoices"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:401
+msgid "INV: Notify Admin of Estimate Declined"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:402
+msgid "Invoicing: Notify Admin of Estimate Declined"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:403
+msgid "  >> This template for notifying the admin of declined estimate"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:419
+msgid "INV: Invoice"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:420
+msgid "Invoicing: Invoice Template"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:421
+msgid "  >> This template for use in generating an Invoice - will be created in this format"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:427
+msgid "INV: Invoice Page"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:428
+msgid "Invoicing: Invoice Page Template"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:429
+msgid "  >> This template for use on Invoice page"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:435
+msgid "INV: Estimate"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:436
+msgid "Invoicing: Estimate Template"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:437
+msgid "  >> This template for use in generating an Estimate - will be created in this format"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:443
+msgid "INV: Estimate Page"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:444
+msgid "Invoicing: Estimate Page Template"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:445
+msgid "  >> This template for use on Estimate page"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:451
+msgid "INV: Invoicing List"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:452
+msgid "Invoicing: Invoicing List Template"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:453
+msgid "  >> This template for use in displaying Invoicing List on pages"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:459
+msgid "INV: Invoicing Account Summary"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:460
+msgid "Invoicing: Invoicing Account Summary Template"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:461
+msgid "  >> This template for [wpc_client_inv_invoicing_account_summary] shortcode"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:511
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:512
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:679
+msgid "Estimates/Invoices"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:567
+#: c:\wp-client-invoicing/includes/inv_class.common.php:278
+#: c:\wp-client-invoicing/includes/admin/invoices.php:43
+#: c:\wp-client-invoicing/includes/admin/invoices.php:476
+msgid "Invoices"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:599
+msgid "Invoice Custom Fields"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:604
+msgid "Payments"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:755
+msgid "Outstanding Invoices"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:765
+msgid "No. of Outstanding Invoices"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:773
+msgid "Total amount of Outstanding Invoices"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:785
+msgid "Past Due Invoices"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:795
+msgid "No. of Past Due Invoices"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:803
+msgid "Total amount of Past Due Invoices"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:948
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:1220
+msgid "Sorry, you should select clients or not empty circles.<br>"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:963
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:1234
+msgid "Sorry, your invoice number already exists.<br>"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:1246
+msgid "Sorry, you should enter title.<br>"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:1875
+msgid "Sorry, wrong Invoice number.<br>"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:1879
+msgid "Sorry, Payment amount is required.<br>"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:1883
+msgid "Sorry, Payment date is required.<br>"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin.php:1887
+msgid "Sorry, Payment method is required.<br>"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:34
+msgid "A Item Name is required.<br/>"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:37
+msgid "A Item Rate is required.<br/>"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:85
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:100
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:268
+#: c:\wp-client-invoicing/includes/inv_class.install.php:32
+msgid "Invoicing List"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:97
+msgid "Text: \"Invoicing List\""
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:106
+msgid "Placeholder"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:109
+msgid "Click to copy"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:109
+msgid "Placeholder was copied"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:115
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:261
+#: c:\wp-client-invoicing/includes/admin/invoices.php:502
+msgid "Type"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:119
+#: c:\wp-client-invoicing/includes/inv_class.common.php:279
+#: c:\wp-client-invoicing/includes/inv_class.common.php:293
+#: c:\wp-client-invoicing/includes/admin/invoices.php:475
+msgid "Invoice"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:120
+#: c:\wp-client-invoicing/includes/admin/estimates.php:347
+msgid "Estimate"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:126
+msgid "Show Date"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:130
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:141
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:152
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:163
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:174
+msgid "No"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:131
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:142
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:153
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:164
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:175
+msgid "Yes"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:137
+msgid "Show Description"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:148
+msgid "Show Type Payment"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:159
+msgid "Show Total Amount"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:170
+msgid "Show \"Pay Now\" Links"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:181
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:387
+#: c:\wp-client-invoicing/includes/admin/estimates.php:372
+#: c:\wp-client-invoicing/includes/admin/invoices.php:501
+msgid "Status"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:185
+msgid "---"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:186
+#: c:\wp-client-invoicing/includes/inv_class.common.php:458
+msgid "Open"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:187
+#: c:\wp-client-invoicing/includes/inv_class.common.php:434
+msgid "Draft"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:188
+#: c:\wp-client-invoicing/includes/inv_class.common.php:425
+msgid "Partial"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:189
+#: c:\wp-client-invoicing/includes/inv_class.common.php:422
+#: c:\wp-client-invoicing/includes/inv_class.user_shortcodes.php:260
+msgid "Paid"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_common.php:190
+#: c:\wp-client-invoicing/includes/inv_class.common.php:419
+#: c:\wp-client-invoicing/includes/inv_class.user_shortcodes.php:264
+msgid "Refunded"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:24
+msgid "Publish"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:26
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:58
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:80
+msgid "User Information"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:28
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:59
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:81
+msgid "Item Fields"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:32
+msgid "Invoice Status and History"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:34
+msgid "Invoice Items"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:38
+msgid "Estimate Items"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:41
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:77
+msgid "Recurring Profile Items"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:48
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:56
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:78
+msgid "Payment Settings"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:50
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:57
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:79
+msgid "Additional Information"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:54
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:76
+msgid "Profile Settings"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:55
+msgid "Accumulating Profile Items"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:71
+msgid "Accumulating Profile History"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:84
+msgid "Recurring Profile History"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:96
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2117
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2441
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2469
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoice_edit.php:128
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:260
+#: c:\wp-client-invoicing/includes/admin/estimate_edit.php:148
+msgid "Description"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:110
+#, php-format
+msgid "You can add more custom fields for use in Invoices from %s page."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:155
+#, php-format
+msgid "Invoice %s Created %s"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:193
+#, php-format
+msgid "%s paid"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:324
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:760
+msgid "Allow Partial Payment"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:328
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:764
+msgid "Minimum Payment"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:336
+msgid "Estimate Number: "
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:336
+msgid "Invoice Number: "
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:344
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:821
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1143
+msgid "Leave blank for Invoice # to be auto-generated in sequence"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:351
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:827
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1149
+msgid "Due Date"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:352
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:828
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1150
+msgid "Due Date is required to be set if setting a Late Fee"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:369
+msgid "Days"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:381
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:842
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1164
+msgid "Late Fee"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:406
+#, php-format
+msgid "Send Email for %s After Paid Invoice"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:414
+msgid "Save as Open"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:415
+msgid "Send Email"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:416
+#, php-format
+msgid "Send Email with PDF file to %s"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:421
+msgid "Save as Draft"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:425
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:863
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1200
+msgid "Cancel"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:431
+#: c:\wp-client-invoicing/includes/admin/invoices.php:406
+msgid "Are you sure to delete this Invoice?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:431
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:872
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1210
+msgid "Delete&nbsp;Permanently"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:440
+#: c:\wp-client-invoicing/includes/admin/estimates.php:286
+#: c:\wp-client-invoicing/includes/admin/invoices.php:404
+msgid "Download PDF"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:670
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:673
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1075
+msgid "Create Invoices as Draft"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:675
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1076
+#, php-format
+msgid "Invoices are saved as drafts. You can review and send them to %s for payment"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:683
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:686
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1083
+msgid "Create Invoices as Open"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:688
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1084
+#, php-format
+msgid "Invoices are saved as open. So %s will see it in their Portals and pay. Also you can set option for Send Invoices by Email."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:696
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:699
+msgid "Auto-Charge via PayPal Subscription"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:701
+#, php-format
+msgid "When invoices are generated, they are automatically sent to your %s via email with a PDF of the invoice attached. The invoice is also automatically charged according to the settings you have configured in the profile."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:712
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1102
+msgid "Create Invoice Every"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:731
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1122
+msgid "Last Day of Month"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:740
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:793
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1131
+msgid "Next Creation Date"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:742
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:795
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1133
+msgid "First Creation Date"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:752
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:804
+msgid "Billing Cycles"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:754
+msgid "If left blank, invoice will repeat indefinitely"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:772
+msgid "PayPal Subscriptions"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:776
+msgid "Bill Every"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:806
+msgid "If left blank, invoice will repeat indefinitely. Value should be 2-52 or empty."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:814
+msgid "Send Email/PDF when generated"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:814
+#, php-format
+msgid "When invoices are generated, they are automatically sent to your clients via email with a PDF of the invoice attached. %s must pay manually either by logging into their Portal, or by some other traditional method."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:834
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1156
+msgid "Day(s)"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:835
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1157
+msgid "number of days after date of invoice creation\""
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:854
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1193
+msgid "Save Profile as Active"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:860
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1197
+msgid "Save Profile as Draft"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:866
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1203
+msgid "Stop Profile"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:876
+msgid "Delete Recurring Profile:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:882
+msgid "What should be done with created Invoices by this Recurring Profile?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:887
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1225
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:512
+msgid "Delete all Invoices"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:893
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1231
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:518
+msgid "Save Invoices"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:904
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1242
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:529
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:252
+msgid "Delete"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:905
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1243
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2424
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2451
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2479
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:530
+#: c:\wp-client-invoicing/includes/admin/invoices.php:739
+#: c:\wp-client-invoicing/includes/admin/invoices.php:766
+msgid "Close"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1091
+msgid "Create Invoices as Live"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1092
+#, php-format
+msgid "When invoices are generated %s will receive email with PDF file."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1177
+msgid "Do Not Delete Discounts"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1183
+msgid "Do Not Delete Taxes"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1215
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:499
+msgid "Delete Accumulating Profile:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1220
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:507
+msgid "What should be done with created Invoices by this Accumulating Profile?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1268
+msgid "Username: "
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1269
+msgid "Contact Name: "
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1270
+msgid "Business Name: "
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1271
+msgid "Email: "
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1279
+#, php-format
+msgid "assign %s to invoice"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1280
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1300
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1317
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1318
+#, php-format
+msgid "Assign To %s"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1299
+#, php-format
+msgid "assign %s"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1344
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1365
+msgid "CC Email: "
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1353
+msgid "Add CC Email"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1385
+msgid "Terms & Conditions:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1393
+msgid "Note to Customer:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1411
+msgid "Currency"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1427
+msgid "General Settings"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1428
+#, php-format
+msgid "You can add more currencies for use in Invoices from %s page."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1675
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2017
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2251
+msgid "Before Discount"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1676
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2018
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2252
+msgid "After Discount"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1991
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2014
+msgid "New Item"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1994
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2217
+msgid "Amount Discount"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:1995
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2218
+msgid "Percent Discount"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2116
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2440
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2468
+msgid "Name"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2121
+msgid "Qty."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2122
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2442
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2470
+msgid "Rate"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2123
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:386
+#: c:\wp-client-invoicing/includes/admin/estimates.php:371
+#: c:\wp-client-invoicing/includes/admin/invoices.php:500
+msgid "Total"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2201
+msgid "Discounts"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2269
+msgid "Sub Total:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2273
+msgid "Discount:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2277
+msgid "Tax:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2286
+msgid "Late Fee:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2295
+msgid "Total:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2309
+#: c:\wp-client-invoicing/includes/admin/invoices.php:656
+msgid "Amount Paid:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2320
+msgid "Total Remaining:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2347
+msgid "Add New Item"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2351
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2450
+msgid "Add Preset Items"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2355
+msgid "Add New Discount"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2359
+msgid "Add New Tax"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2363
+msgid "Add Preset Tax"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2372
+msgid "Item:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2379
+msgid "Item Name:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2380
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2403
+#: c:\wp-client-invoicing/includes/admin/invoices.php:667
+#: c:\wp-client-invoicing/includes/admin/invoices.php:684
+#: c:\wp-client-invoicing/includes/admin/invoices.php:695
+msgid "(required)"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2390
+msgid "Description:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2395
+msgid "characters remaining:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2402
+msgid "Rate:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2415
+msgid "Save this Item as Preset Item for future use"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2423
+msgid "Save Item"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2433
+msgid "Preset Items:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2461
+msgid "Preset Taxes:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.admin_meta_boxes.php:2478
+msgid "Add Preset Taxes"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.ajax.php:107
+msgid "Items not found"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.ajax.php:127
+msgid "Taxes not found"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:280
+msgid "Add New"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:281
+#: c:\wp-client-invoicing/includes/admin/invoices.php:596
+msgid "Add New Invoice"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:282
+#: c:\wp-client-invoicing/includes/admin/estimate_edit.php:107
+msgid "Edit Invoice"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:283
+msgid "New Invoice"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:284
+msgid "View Invoice"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:285
+#: c:\wp-client-invoicing/includes/admin/invoices.php:635
+msgid "Search Invoices"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:286
+msgid "No invoices found"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:287
+msgid "No invoices found in Trash"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:416
+#: c:\wp-client-invoicing/includes/inv_class.common.php:465
+msgid "New"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:428
+msgid "In-Process"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:431
+msgid "Active"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:437
+msgid "Void"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:440
+msgid "Declined"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:443
+msgid "Ended"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:446
+msgid "Stopped"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:449
+#: c:\wp-client-invoicing/includes/inv_class.user_shortcodes.php:262
+msgid "Pending"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:452
+msgid "Expired"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:455
+msgid "Open (Sent)"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.common.php:1445
+#, php-format
+msgid "To continue click <a href=\"%s\">here</a>."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.install.php:23
+msgid "Invoicing"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.install.php:25
+msgid "Page content: [wpc_client_invoicing]"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.install.php:34
+msgid "Page content: [wpc_client_invoicing_list]"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.user_shortcodes.php:42
+msgid "Total Amount Of Invoices Generated"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.user_shortcodes.php:43
+msgid "Total Payments Received"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.user_shortcodes.php:44
+msgid "Balance"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.user_shortcodes.php:236
+msgid "Recurring Payment"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.user_shortcodes.php:236
+msgid "Deposit Payment"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/inv_class.user_shortcodes.php:268
+msgid "Pay Now"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:160
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:78
+#: c:\wp-client-invoicing/includes/admin/estimates.php:134
+#: c:\wp-client-invoicing/includes/admin/invoices.php:163
+msgid "item"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:161
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:79
+#: c:\wp-client-invoicing/includes/admin/estimates.php:135
+#: c:\wp-client-invoicing/includes/admin/invoices.php:164
+msgid "items"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:165
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:83
+#: c:\wp-client-invoicing/includes/admin/estimates.php:139
+#: c:\wp-client-invoicing/includes/admin/invoices.php:168
+msgid "not found."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:301
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:307
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoice_edit.php:104
+msgid "Edit Accumulating Profile"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:301
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:230
+#: c:\wp-client-invoicing/includes/admin/estimates.php:279
+#: c:\wp-client-invoicing/includes/admin/invoices.php:385
+msgid "Edit"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:304
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:231
+#: c:\wp-client-invoicing/includes/admin/estimates.php:288
+#: c:\wp-client-invoicing/includes/admin/invoices.php:406
+#: c:\wp-client-invoicing/includes/admin/invoices.php:414
+msgid "Delete Permanently"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:317
+#: c:\wp-client-invoicing/includes/admin/estimates.php:327
+#: c:\wp-client-invoicing/includes/admin/invoices.php:429
+msgid "Show by"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:338
+#: c:\wp-client-invoicing/includes/admin/estimates.php:303
+#: c:\wp-client-invoicing/includes/admin/invoices.php:451
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:348
+#: c:\wp-client-invoicing/includes/admin/estimates.php:313
+#: c:\wp-client-invoicing/includes/admin/invoices.php:461
+msgid "Filter"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:349
+#: c:\wp-client-invoicing/includes/admin/estimates.php:314
+#: c:\wp-client-invoicing/includes/admin/invoices.php:462
+msgid "Remove Filter"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:362
+#: c:\wp-client-invoicing/includes/admin/invoices.php:326
+msgid "Accumulating Profile"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:384
+msgid "Title Profile"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:388
+msgid "Count"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:391
+#: c:\wp-client-invoicing/includes/admin/estimates.php:373
+#: c:\wp-client-invoicing/includes/admin/invoices.php:503
+msgid "Date"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:440
+msgid "Accumulating Profile <strong>Created</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:443
+msgid "Accumulating Profile and Invoice are <strong>Created</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:446
+msgid "Accumulating Profile <strong>Updated</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:449
+msgid "Accumulating Profile <strong>Updated</strong> and Invoice <strong>Created</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:452
+msgid "Accumulating Profile(s) <strong>Deleted</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:455
+msgid "Accumulating Profile(s) With Created Invoices <strong>Deleted</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:458
+msgid "Accumulating Profile <strong>Stopped</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:479
+msgid "Add New Profile"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoices.php:489
+msgid "Search Profile"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/accumulating_invoice_edit.php:123
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:259
+#: c:\wp-client-invoicing/includes/admin/estimate_edit.php:143
+msgid "Title"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:40
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:240
+msgid "Fields"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:171
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:250
+msgid "Text Box"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:174
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:251
+msgid "Multi-line Text Box"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:177
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:254
+msgid "Radio Buttons"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:180
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:253
+msgid "Checkbox"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:183
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:252
+msgid "Select Box"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:186
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:255
+msgid "Multi Select Box"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:189
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:256
+msgid "Hidden Field"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:200
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:318
+msgid "Checked by Default"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:203
+msgid "Readonly"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:231
+msgid "Are you sure to delete this Custom Filed?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:239
+msgid "Field"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:256
+msgid "Order"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:257
+msgid "Field Slug (ID)"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:262
+msgid "Options"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:282
+msgid "Custom Field <strong>Added</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:285
+msgid "Custom Field <strong>Updated</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:288
+msgid "Custom Field <strong>Deleted</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:304
+msgid "Add New Custom Field"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_fields.php:314
+msgid "Drag&Drop to change the order in which these fields appear on the item block for invoice."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:23
+msgid "A Custom Field Slug is required.<br/>"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:29
+#, php-format
+msgid "A Custom Field with this slug \"%s\" already exist already.<br/>"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:35
+msgid "A Custom Field Title is required.<br/>"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:39
+msgid "A Custom Field Type is required.<br/>"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:77
+msgid "Add Custom Field"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:79
+msgid "Update Custom Field"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:164
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:274
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:284
+msgid "Option"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:167
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:277
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:287
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:308
+msgid "Default Value"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:210
+msgid "Field Slug"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:210
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:246
+msgid "required"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:216
+msgid "Can't be changed."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:220
+msgid "The name used to identify the custom field. Should consist only of these characters \"a-z\" and the underscore symbol \"_\" ."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:226
+msgid "Field Title"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:231
+msgid "The title of the custom field."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:236
+msgid "Field Description"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:241
+msgid "Description for the custom field."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:246
+msgid "Field Type"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:259
+msgid "Select type of the custom field."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:262
+msgid "Fill in the options for this field"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:263
+msgid "Order By"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:265
+msgid "Order Entered"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:266
+msgid "Name - Ascending"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:267
+msgid "Name - Descending"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:293
+msgid "Add another option"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:299
+msgid "Fill in the value for this field"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:313
+msgid "The default value of the custom field."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:323
+msgid "Checked by default for new invoices."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:329
+#, php-format
+msgid "Display Field on %s Registration Form"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:338
+#, php-format
+msgid "Display Field on %s Edit Profile Form"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:347
+msgid "Required Field"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:356
+msgid "Readonly Field"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/custom_field_edit.php:365
+msgid "Save Custom Field"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/estimates.php:264
+msgid "No Comments"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/estimates.php:280
+msgid "Convert to Invoice"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/estimates.php:283
+#: c:\wp-client-invoicing/includes/admin/invoices.php:389
+msgid "View"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/estimates.php:288
+msgid "Are you sure to delete this Estimate?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/estimates.php:369
+msgid "Estimate Number"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/estimates.php:419
+msgid "Estimate <strong>Created</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/estimates.php:422
+msgid "Estimate <strong>Created & Sent</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/estimates.php:425
+msgid "Estimate <strong>Updated</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/estimates.php:428
+msgid "Estimate <strong>Updated & Sent</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/estimates.php:431
+msgid "Estimate <strong>Converted</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/estimates.php:434
+msgid "Estimate(s) <strong>Deleted</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/estimates.php:452
+msgid "Add New Estimate"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/estimates.php:459
+msgid "Search Estimates"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/estimate_edit.php:120
+msgid "Edit Estimate"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:329
+msgid "Recurring Profile"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:335
+msgid "Accumulating Profile (deleted)"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:338
+msgid "Recurring Profile (deleted)"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:342
+msgid "Recurring"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:345
+msgid "One Time"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:387
+#: c:\wp-client-invoicing/includes/admin/invoices.php:765
+msgid "Mark as Void"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:392
+#: c:\wp-client-invoicing/includes/admin/invoices.php:738
+msgid "Add Payment"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:414
+msgid "You does not can delete this Invoice, because exists active Recurring Profile which created this Invoice."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:498
+msgid "Invoice Number"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:557
+msgid "Invoice <strong>Created</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:560
+msgid "Invoice <strong>Created & Sent</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:563
+msgid "Payment <strong>Added</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:566
+msgid "Invoice <strong>Updated</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:569
+msgid "Invoice <strong>Updated & Sent</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:572
+msgid "Invoice(s) <strong>Deleted</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:575
+msgid "Invoice Marked as Void"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:623
+msgid "All"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:629
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:640
+msgid "Add Payment:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:648
+msgid "Invoice Total:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:666
+msgid "Amount Received:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:672
+msgid "Not to be more than total. Can be a partial payment."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:683
+msgid "Payment date:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:694
+msgid "Payment Method:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:698
+msgid "Cash"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:699
+msgid "Check"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:700
+msgid "Wire Transfer"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:701
+msgid "Credit Card"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:702
+msgid "PayPal"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:703
+msgid "Barter"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:704
+msgid "Contribution"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:705
+msgid "Other"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:719
+#: c:\wp-client-invoicing/includes/admin/invoices.php:754
+msgid "Notes:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:731
+msgid "Send a \"thank you\" note for this payment"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoices.php:745
+msgid "Mark as Void:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoice_edit.php:144
+msgid "This Invoice Created by - Accumulating Profile "
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoice_edit.php:147
+msgid "This Invoice Created by - Recurring Profile "
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoice_edit.php:153
+msgid "This Invoice Created by - Accumulating Profile (deleted)"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/invoice_edit.php:156
+msgid "This Invoice Created by - Recurring Profile (deleted)"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_items.php:211
+msgid "Are you sure to delete this Item?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_items.php:220
+msgid "Item"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_items.php:241
+msgid "Item Name"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_items.php:276
+msgid "Item is <strong>Saved</strong>."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_items.php:279
+msgid "Item(s) <strong>Deleted</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_items.php:307
+msgid "Search Items"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_taxes.php:169
+msgid "Are you sure to delete this Tax? "
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_taxes.php:178
+msgid "Tax"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_taxes.php:195
+msgid "Tax Name"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_taxes.php:196
+msgid "Tax Description"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_taxes.php:197
+msgid "Tax Rate (%)"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_taxes.php:218
+msgid "Tax <strong>Saved</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_taxes.php:221
+msgid "Tax is <strong>deleted</strong>."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_taxes.php:259
+msgid "Tax Name:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_taxes.php:268
+msgid "Tax Description:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_taxes.php:277
+msgid "Tax Rate:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/inv_taxes.php:286
+msgid "Save Tax"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:297
+msgid "As Live"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:299
+msgid "Auto Charged"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:301
+msgid "As Draft"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:308
+msgid "Auto Send"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:310
+msgid "Don't Auto Send"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:334
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:367
+#, php-format
+msgid "Assign %s to Recurring Profile"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:399
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:405
+#: c:\wp-client-invoicing/includes/admin/repeat_invoice_edit.php:106
+msgid "Edit Recurring Profile"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:505
+msgid "Profile Title"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:508
+msgid "Email Action"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:509
+msgid "INV"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:566
+msgid "Recurring Profile <strong>Created</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:569
+msgid "Recurring Profile and Invoice are <strong>Created</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:572
+msgid "Recurring Profile <strong>Updated</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:575
+msgid "Recurring Profile <strong>Updated</strong> and Invoice <strong>Created</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:578
+msgid "Recurring Profile(s) <strong>Deleted</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:581
+msgid "Recurring Profile(s) With Created Invoices <strong>Deleted</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:584
+msgid "Recurring Profile <strong>Stopped</strong> Successfully."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:604
+msgid "Recurring invoices are automatically created based on a configured schedule. You can configure the auto charging option and the process of sending these invoices to your customers."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoices.php:621
+msgid "Search Rrofile"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoice_edit.php:177
+msgid "Type of Recurring Profile:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoice_edit.php:188
+msgid "Invoices are saved as drafts. You can review and send them to customers for payment."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoice_edit.php:196
+msgid "Create and Send Invoices"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoice_edit.php:201
+msgid "Invoices are directly sent to your customers for manually payment."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoice_edit.php:209
+msgid "Create, Charge and Send Invoices"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoice_edit.php:214
+msgid "First Invoices send to customers, and after payment, next invoices will charged automaticly."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/repeat_invoice_edit.php:220
+msgid "Save"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:63
+msgid "Invoicing Settings"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:67
+msgid "Preferences"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:73
+msgid "Invoice Number Preview:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:82
+msgid "Invoice Prefix:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:87
+msgid "This prefix will be added to Invoice number"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:93
+msgid "Invoice Next Number:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:98
+msgid "The next INV created will be this value"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:104
+msgid "Display Zeros for Invoice:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:109
+msgid "Display the preceding zeros in the invoice number?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:116
+msgid "Invoice Number of Digits:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:131
+msgid "How may digits would you like in your INV ID numbers?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:137
+msgid "Estimate Number Preview:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:146
+msgid "Estimate Prefix:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:151
+msgid "This prefix will be added to Estimate number"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:157
+msgid "Estimate Next Number:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:162
+msgid "The next EST created will be this value"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:168
+msgid "Display Zeros for Estimate:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:173
+msgid "Display the preceding zeros in the estimate number?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:180
+msgid "Estimate Number of Digits:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:195
+msgid "How may digits would you like in your EST ID numbers?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:201
+msgid "Rate capacity:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:216
+msgid "How may digits after point would you like in rate item?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:221
+msgid "Thousands separator:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:226
+msgid "What kind of thousands separator would you like in rate item?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:237
+msgid "Currency Symbol:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:246
+msgid "Display Currency Symbol:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:250
+msgid "On The Left"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:251
+msgid "On The Right"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:262
+msgid "Send Estimates/Invoices to me for Review?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:274
+#, php-format
+msgid "Send Email for %s After Paid Invoices?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:286
+msgid "Notify when online payment is made"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:300
+msgid "Send reminder emails for invoices?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:311
+msgid "Send first reminder email:"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:324
+msgid "days of due date"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:329
+msgid "Send Final Reminder?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:334
+msgid "Send final reminder one day before due date."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:340
+msgid "Send Email Reminder every "
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:354
+msgid "day(s) after due date"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:359
+msgid "Payment Gateways"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:373
+#, php-format
+msgid "To add or change payments gateway settings, please look in \"%s\""
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:379
+msgid "Payment Description"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:384
+msgid "Will be displayed on the payment page."
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:390
+msgid "Terms & Conditions"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:395
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:406
+msgid "  >> This template for use in the Estimates/Invoices - will be pre-loaded with this content"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:401
+msgid "Note to Customer"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/admin/settings_invoicing.php:415
+msgid "Update Settings"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/user/invoicing_view.php:118
+msgid "Invoice #"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/user/invoicing_view.php:123
+msgid "Estimate #"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/user/invoicing_view.php:137
+msgid "Payment Amount"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/user/invoicing_view.php:149
+msgid "Pay now!"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/user/invoicing_view.php:156
+msgid "Accept"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/user/invoicing_view.php:157
+msgid "Decline"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/user/invoicing_view.php:158
+msgid "Why you decline?"
+msgstr ""
+
+#: c:\wp-client-invoicing/includes/user/invoicing_view.php:160
+msgid "Confirm"
+msgstr ""
+

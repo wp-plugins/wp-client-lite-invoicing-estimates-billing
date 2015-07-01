@@ -1,0 +1,165 @@
+.time_history {
+    width: 30%;
+    font-weight: bold;
+}
+
+.table_history {
+    width: 100%;
+}
+
+#add_new_discount,
+#add_new_tax {
+    cursor:pointer;
+}
+
+#table_items,
+#table_discounts,
+#table_taxes {
+    margin: 10px 0 0 0;
+    padding: 0px;
+    float:left;
+    width:100%;
+}
+
+.margin_desc {
+    margin-left: 7px !important;
+}
+
+.description_item {
+    height: 26px;
+    resize: none;
+}
+
+.description_tax, .description_discount {
+    height: 26px;
+    resize: none;
+}
+
+#added_items table thead, #block_all_items table thead {
+     font-weight: bold;
+}
+
+#added_items table thead td, #block_all_items table thead td, #block_all_taxes table thead td {
+    border-bottom: 1px solid #000 !important;
+}
+
+.total_all_items td {
+    border-top: 1px solid #000 !important;
+}
+
+#block_all_items table tbody td {
+    padding: 5px 0 0 10px;
+}
+
+#added_items table td {
+    padding: 3px;
+    margin: 0 3px;
+}
+
+#block_all_items {
+    width: 100%;
+}
+
+#block_all_items table {
+    margin: 0 auto;
+}
+
+.row_del {
+    width: 31px !important;
+    cursor:pointer;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.row_del span {
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    cursor:pointer;
+    background: transparent url("../../wp-client/images/icons_buttons.png") no-repeat scroll -17px center;
+    margin: 7px !important;
+    padding: 0 !important;
+    float: right;
+}
+
+.total_all {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.item_name, .discount_name, .tax_name, .item_price, .discount_rate, .tax_rate, .discount_type, .tax_type {
+    height: 26px !important;
+}
+
+.discount_type, .tax_type {
+    float: right;
+}
+
+.tax_total, .discount_total, .item_total {
+    font-size: 14px;
+}
+
+#tax_block {
+    text-align: center;
+}
+
+.for_show_by {
+    float: right;
+    margin-right: 20px;
+    margin-top: 2px;
+    color: #555;
+}
+
+.descr_type_profile {
+    margin-left: 23px !important;
+}
+
+#wpc_invoice_note textarea, .discount_name, .description_item, .description_tax, .description_discount, .tax_name, .item_custom_field, #item_name {
+    width: 100%;
+}
+
+.item_name {
+    width: 160px;
+}
+
+.total_all tr td {
+    padding: 1px !important;
+}
+
+#wpc_invoice_assign td.email_del span {
+    margin-top: 4px;
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    cursor:pointer;
+    background: transparent url("../../wp-client/images/icons_buttons.png") no-repeat scroll -17px center;
+}
+
+.add_procent {
+    white-space: nowrap;
+}
+
+.cf_hide {
+    display: none;
+}
+
+.invoice_items {
+    width: 100%;
+}
+
+#check_all_preset_items {
+    margin-left: 10px;
+}
+
+.status_invoice {
+    background: transparent url(../../wp-client/images/icons_buttons.png) no-repeat scroll 0px center;
+    display: inline-block;
+    width: 17px;
+    height: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+    #float: left;
+}
