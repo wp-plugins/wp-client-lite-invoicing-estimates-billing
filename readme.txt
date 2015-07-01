@@ -8,7 +8,7 @@ Stable Tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WP-Client LITE :: Invoicing, Estimates & Billing :: Integrate your Billing needs into your own Branded & Secure Web Portal
+WP-Client LITE - Invoicing, Estimates & Billing :: Integrate your Billing needs into your own Branded & Secure Web Portal
 
 == Description ==
 
