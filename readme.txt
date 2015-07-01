@@ -48,10 +48,7 @@ One result of this extreme flexibility, is that it becomes difficult to provide 
 
 <a href="https://wp-client.com/support/"><strong>Click HERE for the Support Portal</strong></a>
 
-<hr />
 
-<h3 style="margin-bottom:10px;">Why WP-Client PRO?</h3>
-<p> </p>
 
 
 == Screenshots ==
